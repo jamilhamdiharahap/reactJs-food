@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
 const routeProduct = require("./router/products");
+const routeUser = require("./router/user");
 
 const app = express();
 dotenv.config();
@@ -25,6 +26,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(morgan("dev"));
 
 app.use("/api/products", routeProduct);
+app.use("/api/users", routeUser);
 
 app.listen(8000, () => {
   console.log(`starting server ...`);

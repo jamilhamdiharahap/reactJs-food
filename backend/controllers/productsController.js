@@ -19,4 +19,23 @@ controllers.ProductAdd = async (req, res) => {
   }
 };
 
+controllers.productUpdate = async (req, res) => {
+  try {
+    await Product.findOneAndUpdate({_id:req.body.productId},req.body);
+    res.status(201).send("success update product");
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+controllers.productDelete = async (req, res) => {
+  try {
+    console.log(req.body.productId);
+    await Product.findOneAndDelete({_id:req.body.productId});
+    res.status(201).send("success delete product");
+  } catch (error) {
+    console.log(error);
+  }
+};
+
 module.exports =  controllers;
