@@ -1,0 +1,48 @@
+[{
+    "name":"ikan goreng",
+    "category": "makanan",
+    "price": 25000,
+    "image": "/images/ikan-goreng.jpg"
+},
+{
+    "name": "nasi goreng",
+    "category": "makanan",
+    "price": 25000,
+    "image": "/images/nasi_goreng.jpg"
+},
+{
+    "name": "opor ayam",
+    "category": "makanan",
+    "price": 25000,
+    "image": "/images/opor.jpg"
+},
+{
+    "name": "rendang",
+    "category": "makanan",
+    "price": 25000,
+    "image": "/images/rendang.jpg"
+},
+{
+    "name": "sate",
+    "category": "makanan",
+    "price": 25000,
+    "image": "/images/sate.jpg"
+},
+{
+    "name": "susu kedelai",
+    "category": "minuman",
+    "price": 15000,
+    "image": "/images/susu.jpg"
+},
+{
+    "name": "telur balado",
+    "category": "makanan",
+    "price": 25000,
+    "image": "/images/telur-balado.jpg"
+},
+{
+    "name": "jahe",
+    "category": "herbal",
+    "price": 25000,
+    "image": "/images/jahe.jpg"
+}]
